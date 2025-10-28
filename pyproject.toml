@@ -1,0 +1,23 @@
+[project]
+name = "meowcli"
+version = "0.1.0"
+description = "A tiny playful CLI that meows with optional emoji."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = [
+	"pytest~=8.4.2",
+	"ruff~=0.4.4"
+]
+
+[project.scripts]
+meow = "meow.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+target-version = "py310"

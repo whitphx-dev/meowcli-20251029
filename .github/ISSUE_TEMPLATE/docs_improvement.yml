@@ -1,0 +1,9 @@
+name: "Docs improvement"
+description: "Typo fixes or docs clarity"
+labels: ["documentation", "good first issue"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What to improve
+      description: Point to the exact line or section if possible
