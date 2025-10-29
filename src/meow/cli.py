@@ -11,7 +11,7 @@ def meow(times: int = 1, emoji: bool = True) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="A cuet CLI that meows 🐱")
+    parser = argparse.ArgumentParser(description="A cute CLI that meows 🐱")
     parser.add_argument("--times", type=int, default=1, help="Number of times to meow")
     parser.add_argument(
         "--no-emoji", action="store_true", help="Hide the cat emoji in the output"
