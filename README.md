@@ -2,7 +2,7 @@
 
 A tiny CLI that prints cat sounds.
 
-Get greeted by cute cats in your termnial! 🐾
+Get greeted by cute cats in your terminal! 🐾
 
 Purrfect for first OSS PRs.
 
