@@ -19,4 +19,4 @@ def main() -> None:
     args = parser.parse_args()
 
     # BUG: --no-emoji option is ignored (for workshop exercise)
-    meow(times=args.times, emoji=True)
+    meow(times=args.times, emoji=not args.no_emoji)
