@@ -17,6 +17,8 @@ uv sync
 ## Usage
 
 ```bash
+uv run python -m meow --command "woof" # 🐶Woof!
+uv run python -m meow --comand "meow" # 🐱 Meow!
 uv run python -m meow --times 3
 uv run python -m meow --no-emoji  # Hide the cat emoji
 ```
