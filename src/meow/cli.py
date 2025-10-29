@@ -15,7 +15,7 @@ def woof(times: int = 1, emoji: bool = True) -> None:
     for _ in range(times):
         msg = "Woof!"
         if emoji:
-            msg = "🐶" + msg
+            msg = "🐶 " + msg
         print(msg)
 
 
